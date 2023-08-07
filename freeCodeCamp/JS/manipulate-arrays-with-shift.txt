@@ -1,0 +1,8 @@
+//Використайте функцію .shift(), щоб вилучити перший елемент з myArray та призначити виведене значення до нової змінної removedFromMyArray.
+
+
+// Налаштування
+const myArray = [["John", 23], ["dog", 3]];
+
+// Змініть код лише під цим рядком
+const removedFromMyArray = myArray.shift();
