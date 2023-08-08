@@ -1,0 +1,5 @@
+//There should be at least 5 sub-arrays in the list.
+
+
+
+const myList = [["Chocolate",10],["Cookies",5],["Tomatoes",5],["Strawberries",2],["One more chocolate",1]];
