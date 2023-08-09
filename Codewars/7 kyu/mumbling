@@ -1,0 +1,21 @@
+//write function accum:
+
+//Examples:
+//accum("abcd") -> "A-Bb-Ccc-Dddd"
+//accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+//accum("cwAt") -> "C-Ww-Aaa-Tttt"
+//The parameter of accum is a string which includes only letters from a..z and A..Z.
+
+//Solution
+function accum(s) {
+	// your code
+  let result = [];
+  for (let i = 0; i < s.length; i++) {
+    let acc = '';
+    for (let j = 0; j < i + 1; j++) {
+      acc += j === 0 ? s[i].toUpperCase() : s[i].toLowerCase();
+    }
+    result.push(acc);
+  }
+  return result.join('-');
+}
